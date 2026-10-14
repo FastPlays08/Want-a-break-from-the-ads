@@ -4,6 +4,8 @@
   "package": "space.fastplays.need_a_break_from_the_ads.mixin",
   "compatibilityLevel": "JAVA_25",
   "mixins": [
+    "JukeboxSongPlayerMixin",
+    "SoundEventsMixin"
   ],
   "injectors": {
     "defaultRequire": 1

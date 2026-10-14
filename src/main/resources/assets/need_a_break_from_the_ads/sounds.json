@@ -1,0 +1,10 @@
+{
+  "want_a_break_from_the_ads": {
+    "sounds": [
+      {
+        "name": "need_a_break_from_the_ads:want-a-break-from-the-ads",
+        "stream": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "need_a_break_from_the_ads",
+  "version": "${version}",
+  "name": "Need a break from the Ads",
+  "description": "Need a break from the Ads?",
+  "authors": [],
+  "contact": {},
+  "license": "unlicense",
+  "icon": "assets/need_a_break_from_the_ads/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "space.fastplays.need_a_break_from_the_ads.Need_a_break_from_the_ads"
+    ]
+  },
+  "mixins": [
+    "need_a_break_from_the_ads.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "${minecraft_version}"
+  }
+}
